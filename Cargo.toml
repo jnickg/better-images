@@ -18,7 +18,9 @@ categories = ["development-tools"]
 channel = "nightly"
 
 [dependencies]
+bench = "1.1.0"
 bytemuck = "1.16.0"
+cargo = "0.79.0"
 image = { version = "0.25.1", default-features = false, features = ["rayon"] }
 num-traits = "0.2.19"
 
