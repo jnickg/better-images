@@ -36,4 +36,6 @@ pub trait PixelContainer {
 
   fn pixels(&self) -> &Self::PixelBuffer;
   fn pixels_mut(&mut self) -> &mut Self::PixelBuffer;
+  fn width(&self) -> usize;
+  fn height(&self) -> usize;
 }

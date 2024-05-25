@@ -41,6 +41,10 @@ impl<
   fn pixels(&self) -> &Self::PixelBuffer { &self.data }
 
   fn pixels_mut(&mut self) -> &mut Self::PixelBuffer { &mut self.data }
+
+  fn width(&self) -> usize { self.width }
+
+  fn height(&self) -> usize { self.height }
 }
 
 impl<
